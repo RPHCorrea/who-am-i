@@ -248,6 +248,7 @@ input, select, textarea {
 		h2 {
 			font-size: clamp(1.4em, 2.5vw, 2.5rem);
 			line-height: 1.3;
+			word-break: break-word;
 		}
 
 		h3 {
