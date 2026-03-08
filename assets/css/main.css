@@ -50,6 +50,30 @@
 .button:hover{
 	background:#555;
 }
+.language{
+	position:absolute;
+	top:auto;
+	left:50%;
+	transform:translateX(-10%);
+	display:flex;
+	gap:10px;
+	font-size:14px;
+}
+
+.language a{
+	text-decoration: none !important;
+	border-bottom: none !important;
+	color:white;
+	font-weight:500;
+}
+.language a:hover{
+	text-decoration:none !important;
+	border-bottom:none !important;
+}
+
+.language a:hover{
+	opacity:1;
+}
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
